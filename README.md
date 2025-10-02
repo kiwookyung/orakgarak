@@ -22,7 +22,7 @@
 - **👥 소셜 피드**: 앨범 공유, 좋아요, 댓글로 소통
 - **🎶 직관적 재생 경험**: 반응형 UI로 음악 감상 최적화
 
-## 시연 영상
+## 🎬시연 영상
 [![YouTube Video](https://img.youtube.com/vi/TZXWQVrrv0A/0.jpg)](https://www.youtube.com/watch?v=TZXWQVrrv0A)
 
 ## 🛠 기술 스택
@@ -92,18 +92,7 @@
 
 ## 🏗 아키텍처
 
-```
-[Frontend: React+TS+Vite :5173]
-|
-v
-[Backend: Spring Boot API :8080] --- [MySQL]
-| |
-| └── [Redis: 세션/캐시]
-|
-├── [AWS S3: 파일 저장]
-└── [Data/AI: FastAPI :8000, ML 모델, Gemini Image]
-```
-
+<img width="1772" height="1207" alt="스크린샷 2025-10-01 155938" src="https://github.com/user-attachments/assets/dbe1da27-849d-432f-a28b-7d68ebb0be1b" />
 
 ## 🚀 실행 방법
 
@@ -145,33 +134,20 @@ http://localhost:8000
 
 ## 📊 DB & ERD
 
-Wiki에서 확인 가능 → Database-Design
+<img width="1378" height="766" alt="스크린샷 2025-10-02 094916" src="https://github.com/user-attachments/assets/77c20652-5a3d-402a-9fff-433d16b6f924" />
 
-## 🖼 예시 스크린샷 & 데모
-
-랜딩 페이지
-
-음역대 분석 (보컬 테스트)
-
-추천 결과 화면
-
-앨범 제작 & AI 커버
-
-피드 & 커뮤니티
 
 ## 👥 팀 정보
 
 **SSAFY 13기 C103팀**  
 프로젝트 기간: 2025년
 
-- Frontend:
-- Backend:
-- Data/AI:
-- Infra/DevOps:
+- Frontend: 기우경, 이승민 ,이혜민
+- Backend: 신진우, 범 수, 이혜민
+- Data/AI: 신진우, 강민정
+- Infra/DevOps: 신진우
 
 ## 📄 라이선스
 
 이 프로젝트는 내부 학습/연구 목적이며 별도 라이선스 없이 사용되었습니다.
 
-
-(서비스 구조 다이어그램 / 텍스트 설명)
